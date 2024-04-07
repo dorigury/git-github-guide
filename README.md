@@ -97,16 +97,16 @@ git commit -m "first commit"
 - GitHub에 새 Repository 생성
 - 로컬에 원격저장소 추가 후 푸시 
 ```
-- git remote add origin https://github.com/dorigury/express_basic.git (원격저장소 주소)
-- git branch -M main
-- git push -u origin main
+git remote add origin https://github.com/dorigury/express_basic.git (원격저장소 주소)
+git branch -M main
+git push -u origin main
 ```
 
 - 이후 변경작업시 저장방법
 ```
-- git add . 
-- git commit -m "second commit" 
-- git push
+git add . 
+git commit -m "second commit" 
+git push
 ```
 
 ## git 원격저장소 명령 
