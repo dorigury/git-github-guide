@@ -59,19 +59,13 @@ git status
 vscode u 표시는  untracked, m은 modified 의미 
 ```
 
-- 작업후 변경사항 확인 
-```
-git status
-vscode u 표시는  untracked, m은 modified 의미 
-```
-
-- 작업사항 등록하기 
+- 변경사항 등록하기 
 ```
 git add . 
 ```
 
-- 작업사항 저장하기 
-``
+- 변경사항 저장하기 
+```
 git commit -m "first commit" 
 ```
 
@@ -84,28 +78,35 @@ git commit -m "first commit"
 
 - Personal access token 만들기
 ```
-우측 상단의 프로필 - Settings
-Developer Settings
-Personal access tokens - Generate new token
-repo 및 원하는 기능에 체크, 기간 설정 뒤 Generate token 
-예를 들면 - repo기능과 무제한으로 설정
-토큰 안전한 곳에 보관해 둘 것, 화면을 닫으면 다시 토큰값을 확인할 수 없음 
+- 우측 상단의 프로필 - Settings
+- Developer Settings
+- Personal access tokens - Generate new token
+- repo 및 원하는 기능에 체크, 기간 설정 뒤 Generate token 
+- 예를 들면 - repo기능과 무제한으로 설정
+- 토큰 안전한 곳에 보관해 둘 것, 화면을 닫으면 다시 토큰값을 확인할 수 없음 
 ```
 
 - 토큰 컴퓨터에 저장하기
 ```
-Windows 자격 증명 관리자
-Windows 자격 증명 선택
-git:https://github.com 자격 정보 생성
-사용자명과 토큰 붙여넣기
+- Windows 자격 증명 관리자
+- Windows 자격 증명 선택
+- git:https://github.com 자격 정보 생성
+- 사용자명과 토큰 붙여넣기
 ```
 
 - GitHub에 새 Repository 생성
 - 로컬에 원격저장소 추가 후 푸시 
 ```
-git remote add origin https://github.com/dorigury/express_basic.git (원격저장소 주소)
-git branch -M main
-git push -u origin main
+- git remote add origin https://github.com/dorigury/express_basic.git (원격저장소 주소)
+- git branch -M main
+- git push -u origin main
+```
+
+- 이후 변경작업시 저장방법
+```
+- git add . 
+- git commit -m "second commit" 
+- git push
 ```
 
 ## git 원격저장소 명령 
